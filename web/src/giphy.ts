@@ -83,9 +83,9 @@ async function renderGIPHYGrid(targetEl: HTMLElement): Promise<{remove: () => vo
         // for detailed documentation.
         renderGrid(
             {
-                width: 300,
+                width: 120,
                 fetchGifs,
-                columns: 3,
+                columns: 2,
                 gutter: 6,
                 noLink: true,
                 // Hide the creator attribution that appears over a
